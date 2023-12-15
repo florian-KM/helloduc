@@ -1,0 +1,42 @@
+- verifier si se sont les images libre de droit 
+- sur la carossel mixer les couleurs de noir
+- les acteurs principaux de la pplateforme ( l'organisation, les enseignatns et les parents ) la cible principal est les enfants #OK
+les slides s'adresse beaucoup plus au parent (50% ) 35% organisation et 15 % enseignant, 
+
+- mettre les slogans par slides pour chaque acteurs #OK
+
+A propos 
+	' changer le titre ( notre mission est .... ) trouver une phrase qui decrit helloeduc en quelques mots
+	* Changer la description : 
+	* l'icone doit referencer le text 
+	* la liste des objectifs 
+		- un accompagnement et planing personalisé
+		- enseignat qualifié et vérifié
+		- suivi et rapport détaillé 
+		
+cours
+	
+	* fixer 3 cartes 
+		- math , info et dictée #OK
+	* retirer les liens  #OK
+	
+- mettre plus de 50 000 apprenants satisfait au lieu de satisfait  #OK
+
+
+-^pricing 
+	* les organisations
+	* faire en sorte que les plans varies en fonction des organisations et des parents.
+	* plus les parents helloedu plus on te paye. 
+	* On doit pour faire ressortir le fait que est payé sur tâche réalisée 
+	
+- Contactez nous
+	* mettre un titre et une description 
+	- corrigé les errerus sur les cartes #OK
+	- la premiere section sera notre adresse comme titre 
+	- deplacer les cartes à droite et inserer les la map a gauche 
+
+
+- Footer 	#OK
+	Privacy Policy
+	Terms & conditions
+		

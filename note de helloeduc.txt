@@ -7,11 +7,11 @@ les slides s'adresse beaucoup plus au parent (50% ) 35% organisation et 15 % ens
 
 A propos 
 	' changer le titre ( notre mission est .... ) trouver une phrase qui decrit helloeduc en quelques mots
-	* Changer la description : 
+	* Changer la description : #OK
 	* l'icone doit referencer le text 
-	* la liste des objectifs 
+	* la liste des objectifs #OK
 		- un accompagnement et planing personalisé
-		- enseignat qualifié et vérifié
+		- enseignant qualifié et vérifié
 		- suivi et rapport détaillé 
 		
 cours

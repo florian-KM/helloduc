@@ -12966,6 +12966,38 @@ ul.children {
   content: "\e902";
 }
 
+.icon-dashboard:before {
+  content: "\e900";
+}
+
+.icon-activities:before {
+  content: "\e933";
+}
+
+.icon-bookmark:before {
+  content: "\e906";
+}
+
+.icon-comments:before {
+  content: "\e903";
+}
+
+.icon-goals:before {
+  content: "\e945";
+}
+
+.icon-science-drop-double:before {
+  content: "\e93d";
+}
+
+.icon-globe:before {
+  content: "\e91f";
+}
+
+.icon-notifications:before {
+  content: "\e942";
+}
+
 .icon-cloud:before {
   content: "\e903";
 }

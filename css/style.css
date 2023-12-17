@@ -10692,11 +10692,13 @@ ul.children {
   margin-top: 16px;
 }
 
-@media (max-width: 991px) {
-  .contact-info-area .icon-card.style-4 {
-    margin-top: 24px;
+
+@media (max-width: 1000px) {
+  .contact-info-area {
+    display: none;
   }
 }
+
 .contact-info-area .icon-card.style-4 .icon {
   width: auto;
   position: relative;

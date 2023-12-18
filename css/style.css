@@ -3353,6 +3353,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .main-menu ul li.active {
   position: relative;
+  color: #015DFF;
 }
 .main-menu ul li.active > a {
   color: #525256;
@@ -3388,6 +3389,19 @@ body.admin-bar .header-menu-area.sticky_menu {
   text-transform: capitalize;
   position: relative;
   color: #141F39;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.main-menu ul li a.active {
+  display: block;
+  padding: 37px 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  position: relative;
+  color: #FD5654;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -10178,9 +10192,8 @@ ul.children {
 }
 .why-choose-area.style-1 .shape {
   position: absolute;
-  top: 0;
-  right: 0;
-  animation: MoveTopRight 4s infinite;
+  top: -50%;
+  left: 0;
 }
 .why-choose-area.style-1 .sketch {
   position: absolute;

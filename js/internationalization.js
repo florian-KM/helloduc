@@ -10,7 +10,7 @@ function translatePage(lang) {
     elements.forEach(element => {
         const key = element.getAttribute('data-translate');
         const translatedText = translate(key, lang);
-        element.textContent = translatedText;
+        element.innerHTML = translatedText;
     });
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="En">
 
 
 <!-- Mirrored from boomdevstheme.com/tf/html/augmit/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Dec 2023 16:26:11 GMT -->
@@ -31,6 +31,7 @@
     
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="icofont/icofont.min.css" >
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/meanmenu.css" />
@@ -64,18 +65,29 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xl-8 col-lg-9 col-md-6 col-6 d-flex align-items-end justify-content-end justify-content-xxl-end">
+                    <div class="col-xl-8 col-lg-9 col-md-6 col-6 d-flex align-items-center justify-content-center justify-content-xxl-end">
                         <div class="menu d-inline-block">
                             <nav id="main-menu" class="main-menu">
                                 <ul>
-                                    <li ><a class="active" data-key="navMenu.home" href="#">Accueil</a></li>
-                                    <li><a href="community.html">Organisations</a></li>
-                                    <li><a href="teachers.html">Enseignants</a></li>
-                                    <li><a href="parent.html">Parents</a></li>
+                                    <li ><a class="active" data-translate="navbar.hello" href="#">Accueil</a></li>
+                                    <li><a href="community.html" data-translate="navbar.Organisations" >Organisations</a></li>
+                                    <li><a href="teachers.html" data-translate="navbar.Enseignants">Enseignants</a></li>
+                                    <li><a href="parent.html" data-translate="navbar.Parents" >Parents</a></li>
+                                    <li>
+                                        <select id="languageSelect" onchange="changeLanguage(this.value)">
+                                            <option value="Fr">
+                                                Français
+                                            </option>
+                                            <option value="En">
+                                                Englais
+                                            </option>
+                                        </select>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
                         <!-- Header Button Start !-->
+                        
                         <!-- Mobile Menu Toggle Button Start !-->
                         <div class="mobile-menu-bar d-lg-none text-end">
                             <a href="#" class="mobile-menu-toggle-btn"><i class="fal fa-bars"></i></a>
@@ -459,7 +471,7 @@
                     <div class="icon-card-wrapper">
                         <div class="icon-card style-2 wow animate__animated animate__fadeInTopLeft animate__slow">
                             <div class="icon">
-                                <img src="images/icon/cours_interactif.png" alt="service">
+                                <img src="images/icon/enseignant_qualifie.png" alt="service">
                             </div>
                             <div class="content">
                               <h2 class="title"> <a href="#services">Enseignants qualifiés</a> </h2>
@@ -473,7 +485,7 @@
                         </div>
                         <div class="icon-card style-2 wow animate__animated animate__fadeInTopRight animate__slow">
                             <div class="icon primary">
-                                <img src="images/icon/flexibilite_horaire.jpg" alt="service">
+                                <img src="images/icon/suivi.png" alt="service">
                             </div>
                             <div class="content">
                               <h2 class="title">
@@ -490,7 +502,7 @@
                         </div>
                         <div class="icon-card style-2 wow animate__animated animate__fadeInBottomLeft animate__slow">
                             <div class="icon primary">
-                                <img src="images/icon/web.png" alt="service">
+                                <img src="images/icon/support.png" alt="service">
                             </div>
                             <div class="content">
                               <h2 class="title">
@@ -508,7 +520,7 @@
                         </div>
                         <div class="icon-card style-2 wow animate__animated animate__fadeInBottomRight animate__slow">
                             <div class="icon primary">
-                                <img src="images/icon/cloud.png" alt="service">
+                                <img src="images/icon/securite_donnees.png" alt="service">
                             </div>
                             <div class="content">
                               <h2 class="title">
@@ -785,6 +797,7 @@
     </div>
     <!-- Scroll Up Section End -->
 
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
@@ -798,8 +811,9 @@
     <script src="js/tilt.jquery.js"></script>
     <script src="js/jquery.imagesloaded.min.js"></script>
     <script src="js/isotope.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/internationalization.js"></script>
+    <script src="js/custom.js"></script>   
+    <script src="js/i18n.js"></script> 
+    <!-- <script src="js/internationalization.js"></script> -->
 </body>
 
 

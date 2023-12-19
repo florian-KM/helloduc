@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     // Charger la page avec la langue par défaut (en anglais)
-    translatePage('En');
+    translatePage('Fr');
 });
 
 function translatePage(lang) {

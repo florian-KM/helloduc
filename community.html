@@ -79,10 +79,20 @@
                     <div class="menu d-inline-block">
                         <nav id="main-menu" class="main-menu">
                             <ul>
-                                <li><a href="index.html">Accueil</a></li>
-                                <li><a  class="active" href="community.html">Organisations</a></li>
-                                <li><a href="teachers.html">Enseignants</a></li>
-                                <li><a href="parent.html">Parents</a></li>
+                                <li><a href="index.html" data-translate="navbar.hello">Accueil</a></li>
+                                <li><a  class="active" href="community.html" data-translate="navbar.Organisations">Organisations</a></li>
+                                <li><a href="teachers.html" data-translate="navbar.Enseignants">Enseignants</a></li>
+                                <li><a href="parent.html" data-translate="navbar.Parents">Parents</a></li>
+                                <li>
+                                    <select id="languageSelect" onchange="changeLanguage(this.value)">
+                                        <option value="Fr" data-translate="lang.francais">
+                                            Français
+                                        </option>
+                                        <option value="En" data-translate="lang.anglais">
+                                            Anglais
+                                        </option>
+                                    </select>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -101,39 +111,39 @@
   <!-- Header End !-->
   <!-- Menu Sidebar Section Start -->
   <div class="menu-sidebar-area">
-      <div class="menu-sidebar-wrapper">
-          <div class="menu-sidebar-close">
-              <button class="menu-sidebar-close-btn" id="menu_sidebar_close_btn">
-                  <i class="fal fa-times"></i>
-              </button>
-          </div>
-          <div class="menu-sidebar-content">
-              <div class="menu-sidebar-logo">
-                  <a href="index.html">
-                      <img src="images/Logo_hello/Horrizontal Version/Logo Noir.png" alt="logo" />
-                  </a>
-              </div>
-              <div class="mobile-nav-menu"></div>
-              <div class="menu-sidebar-content">
-                  <div class="menu-sidebar-single-widget">
-                      <h5 class="menu-sidebar-title">Contact Info</h5>
-                      <div class="header-contact-info">
-                          <span><i class="fa-solid fa-location-dot"></i>Toronto, ON Canada</span>
-                          <span><a href="mailto:contact@helloeduc.com"><i
-                                  class="fa-solid fa-envelope"></i>contact@helloeduc.com</a> </span>
-                          <span><a href="tel:+123-456-7890"><i class="fa-solid fa-phone"></i>+123-456-7890</a></span>
-                      </div>
-                      <div class="social-profile">
-                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                          <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div class="menu-sidebar-wrapper">
+        <div class="menu-sidebar-close">
+            <button class="menu-sidebar-close-btn" id="menu_sidebar_close_btn">
+                <i class="fal fa-times"></i>
+            </button>
+        </div>
+        <div class="menu-sidebar-content">
+            <div class="menu-sidebar-logo">
+                <a href="index.html">
+                    <img src="images/Logo_hello/Horrizontal Version/Logo Noir.png" alt="logo" />
+                </a>
+            </div>
+            <div class="mobile-nav-menu"></div>
+            <div class="menu-sidebar-content">
+                <div class="menu-sidebar-single-widget">
+                    <h5 class="menu-sidebar-title" data-translate="mobile.navbar.contact">Contact Info</h5>
+                    <div class="header-contact-info">
+                        <span><i class="fa-solid fa-location-dot" ></i>Toronto, Canada</span>
+                        <span><a href="mailto:contact@helloeduc.com"><i
+                                class="fa-solid fa-envelope"></i>contact@helloeduc.com</a> </span>
+                        <span><a href="tel:+123-456-7890"><i class="fa-solid fa-phone"></i>+123-456-7890</a></span>
+                    </div>
+                    <div class="social-profile">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   <!-- Menu Sidebar Section Start -->
   <div class="body-overlay"></div>
   
@@ -150,12 +160,12 @@
         <div class="col-md-12">
           <div class="breadcrumb-wrapper">
             <div class="page-heading">
-              <h2 class="page-title">Organisation</h2>
+              <h2 class="page-title" data-translate="community.page.title">Organisation</h2>
             </div>
             <div class="breadcrumb-list">
               <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li class="active"><a href="#">Organisation</a></li>
+                <li><a href="index.html" data-translate="community.page.fileariane1" >Accueil</a></li>
+                <li class="active"><a href="#" data-translate="community.page.title">Organisation</a></li>
               </ul>
             </div>
           </div>
@@ -172,15 +182,15 @@
             <div class="about-info-card">
                     <div class="section-title">
                         <div class="short-title">
-                            <span> Passez au digital</span>
+                            <span data-translate="community.apropos.slogan"> Passez au digital</span>
                         </div>
-                        <h2 class="title"> Franchissez une nouvelle étape</h2>
-                        <p class="desc" style="text-align: justify;">
+                        <h2 class="title" data-translate="community.apropos.title" > Franchissez une nouvelle étape</h2>
+                        <p class="desc" style="text-align: justify;" data-translate="community.apropos.description1">
                             Rejoignez la révolution de l'éducation en passant au numérique avec Hello Educ. Notre plateforme digitale va au-delà de la simple transition en ligne, offrant une chance d'élargir votre portée, d'optimiser vos services de cours et de créer des expériences d'apprentissage enrichissantes. En nous rejoignant, vous accédez à une plateforme hautement configurable, offrant une flexibilité exceptionnelle pour concevoir, dispenser et gérer vos programmes pédagogiques avec facilité.</p>
-                        <p class="desc" style="text-align: justify;">Notre écosystème numérique sécurisé facilite l'interaction entre enseignants et étudiants, favorisant un apprentissage collaboratif et engageant. Notre équipe dédiée est là pour vous accompagner à chaque étape de votre transition digitale, fournissant un soutien continu, des ressources pratiques et des formations.</p>
-                        <p class="desc" style="text-align: justify;">Rejoignez-nous pour façonner l'avenir de l'éducation. En adoptant notre plateforme digitale, votre organisation prospérera dans un environnement numérique en constante évolution. Ensemble, repoussons les limites de l'enseignement en ligne, offrons des services de cours de soutien de qualité à une audience plus large, tout en proposant des expériences d'apprentissage captivantes et innovantes.</p>
+                        <p class="desc" style="text-align: justify;" data-translate="community.apropos.description2" >Notre écosystème numérique sécurisé facilite l'interaction entre enseignants et étudiants, favorisant un apprentissage collaboratif et engageant. Notre équipe dédiée est là pour vous accompagner à chaque étape de votre transition digitale, fournissant un soutien continu, des ressources pratiques et des formations.</p>
+                        <p class="desc" style="text-align: justify;" data-translate="community.apropos.description2" >Rejoignez-nous pour façonner l'avenir de l'éducation. En adoptant notre plateforme digitale, votre organisation prospérera dans un environnement numérique en constante évolution. Ensemble, repoussons les limites de l'enseignement en ligne, offrons des services de cours de soutien de qualité à une audience plus large, tout en proposant des expériences d'apprentissage captivantes et innovantes.</p>
                         <div class="slider-btn-wrapper">
-                            <a href="https://app.helloeduc.com" class="slider-btn ">
+                            <a href="https://app.helloeduc.com" class="slider-btn " data-translate="commencez.maintenant" >
                                 Commencez maintenant
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
@@ -212,10 +222,10 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center wow animate__animated animate__fadeInUp animate__slow">
                         <div class="short-title">
-                            <span> Des services adaptés</span>
+                            <span data-translate="community.service.slogan" > Des services adaptés</span>
                         </div>
-                        <h2 class="title"> Nous comprenons vos besoins</h2>
-                        <p class="desc">Parce Que nous vous comprenons, nous avons proposé une multitude de
+                        <h2 class="title" data-translate="community.service.title" > Nous comprenons vos besoins</h2>
+                        <p class="desc" data-translate="community.service.description" >Parce Que nous vous comprenons, nous avons proposé une multitude de
                             service vous permettant de pleinement profiter de votre expérience sur la plateforme.</p>
                     </div>
                 </div>
@@ -228,8 +238,8 @@
                                 <i class="icofont-settings-alt"></i>
                             </div>
                             <div class="content">
-                              <h2 class="title"> Haute configurabilité</h2>
-                              <p class="desc">Vous avez la possibilité de configurer entièrement votre espace. Gérer facilement vos
+                              <h2 class="title" data-translate="community.service.content.title1"> Haute configurabilité</h2>
+                              <p class="desc" data-translate="community.service.content.description1">Vous avez la possibilité de configurer entièrement votre espace. Gérer facilement vos
                                 classes, matières, cours, paiements, facturation, etc… </p>
                             </div>
                         </div>
@@ -238,10 +248,10 @@
                                 <i class="icofont-notification"></i>
                             </div>
                             <div class="content">
-                              <h2 class="title">
+                              <h2 class="title" data-translate="community.service.content.title2">
                                 Notification en temps réel
                             </h2>
-                              <p class="desc">Des notifications sont envoyés en temps réel pour informer des activités sur votre
+                              <p class="desc" data-translate="community.service.content.description2">Des notifications sont envoyés en temps réel pour informer des activités sur votre
                                 espace, vos enseignants, parents et élèves ne rateront aucune information utile. </p>
                             
                             </div>
@@ -251,10 +261,10 @@
                                 <i class="icofont-pay"></i>
                             </div>
                             <div class="content">
-                              <h2 class="title">
+                              <h2 class="title" data-translate="community.service.content.title3">
                                 Moyens de paiement intégrés
                             </h2>
-                              <p class="desc">Vos parents n’auront aucune difficulté à régler leurs factures à l’aide des moyens de
+                              <p class="desc" data-translate="community.service.content.description3">Vos parents n’auront aucune difficulté à régler leurs factures à l’aide des moyens de
                                 paiement intégrés dans la plateforme. Ils pourront utiliser leur carte et paypal sans
                                 soucis.</p>
                             </div>
@@ -264,9 +274,9 @@
                                 <i class="icofont-ssl-security"></i>
                             </div>
                             <div class="content">
-                              <h2 class="title">Sécurité des données
+                              <h2 class="title" data-translate="community.service.content.title4">Sécurité des données
                             </h2>
-                              <p class="desc">La sécurité de vos données est notre priorité. Notre plateforme utilise les dernières
+                              <p class="desc" data-translate="community.service.content.description4">La sécurité de vos données est notre priorité. Notre plateforme utilise les dernières
                                 technologies pour garantir la confidentialité et la protection des informations.</p>
                                 
                             </div>
@@ -290,10 +300,10 @@
             <div class="col-lg-8">
                 <div class="section-title text-center ">
                     <div class="short-title">
-                        <span>Nous connaitre</span>
+                        <span data-translate="community.connaitre.slogan" >Nous connaitre</span>
                     </div>
-                    <h2 class="title">Nos Fondements,<br> Vos Valeurs.</h2>
-                    <p class="desc"> Plongez dans les valeurs fondamentales qui guident notre organisation. <br> De la collaboration à la diversité, de la qualité de l'enseignement à l'innovation, explorez ce qui définit notre approche unique de l'éducation.</p>
+                    <h2 class="title" data-translate="community.connaitre.title" >Nos Fondements,<br> Vos Valeurs.</h2>
+                    <p class="desc" data-translate="community.connaitre.description"> Plongez dans les valeurs fondamentales qui guident notre organisation. <br> De la collaboration à la diversité, de la qualité de l'enseignement à l'innovation, explorez ce qui définit notre approche unique de l'éducation.</p>
                 </div>
             </div>
         </div>
@@ -303,8 +313,8 @@
                   <img src="images/icon/collaboration.png" alt="service">
               </div>
               <div class="content">
-                <h2 class="title">Collaboration </h2>
-                <p class="desc">Nous croyons en la puissance de la collaboration. En unissant nos forces, parents, enseignants et apprenants créent une organisation éducative où chacun apporte une contribution précieuse.</p>
+                <h2 class="title" data-translate="community.connaitre.content.title1" >Collaboration </h2>
+                <p class="desc" data-translate="community.connaitre.content.description1" >Nous croyons en la puissance de la collaboration. En unissant nos forces, parents, enseignants et apprenants créent une organisation éducative où chacun apporte une contribution précieuse.</p>
                 
               </div>
           </div>
@@ -313,10 +323,10 @@
                   <img src="images/icon/inclusion.png" alt="service">
               </div>
               <div class="content">
-                <h2 class="title">
+                <h2 class="title" data-translate="community.connaitre.content.title2">
                 Diversité et Inclusion
               </h2>
-                <p class="desc">Nous accueillons et célébrons la diversité sous toutes ses formes. Chaque membre de notre organisation est respecté et valorisé, créant un environnement inclusif propice à l'apprentissage mutuel.</p>
+                <p class="desc" data-translate="community.connaitre.content.description2">Nous accueillons et célébrons la diversité sous toutes ses formes. Chaque membre de notre organisation est respecté et valorisé, créant un environnement inclusif propice à l'apprentissage mutuel.</p>
                 
               </div>
           </div>
@@ -325,10 +335,10 @@
                   <img src="images/icon/responsabilite_sociale.png" alt="service">
               </div>
               <div class="content">
-                <h2 class="title">
+                <h2 class="title" data-translate="community.connaitre.content.title3">
                   Responsabilité Sociale
               </h2>
-                <p class="desc">Nous encourageons nos membres à être des citoyens responsables et engagés. L'éducation que nous offrons vise à préparer les apprenants à contribuer positivement à la société. </p>
+                <p class="desc" data-translate="community.connaitre.content.description3" >Nous encourageons nos membres à être des citoyens responsables et engagés. L'éducation que nous offrons vise à préparer les apprenants à contribuer positivement à la société. </p>
                 
               </div>
           </div>
@@ -337,10 +347,10 @@
                   <img src="images/icon/innovation.png" alt="service">
               </div>
               <div class="content">
-                <h2 class="title">
+                <h2 class="title" data-translate="community.connaitre.content.title4">
                   Innovation
               </h2>
-                <p class="desc">Nous embrassons l'innovation et encourageons nos membres à explorer de nouvelles idées et approches éducatives. L'apprentissage doit être stimulant et inspirant.</p>
+                <p class="desc" data-translate="community.connaitre.content.description4" >Nous embrassons l'innovation et encourageons nos membres à explorer de nouvelles idées et approches éducatives. L'apprentissage doit être stimulant et inspirant.</p>
                 
               </div>
           </div>
@@ -349,7 +359,7 @@
             <div class="col-lg-3">
                 <div class="section-title text-center  ">
                     <div class="slider-btn-wrapper  mt-0">
-                        <a href="https://app.helloeduc.com" class="slider-btn ">
+                        <a href="https://app.helloeduc.com" class="slider-btn" data-translate="commencez.maintenant">
                             Commencez maintenant
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>

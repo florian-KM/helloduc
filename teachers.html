@@ -78,10 +78,20 @@
                     <div class="menu d-inline-block">
                         <nav id="main-menu" class="main-menu">
                             <ul>
-                                <li ><a href="index.html">Accueil</a></li>
-                                <li><a href="community.html">Organisation</a></li>
-                                <li ><a class="active" href="teachers.html">Enseignants</a></li>
-                                <li><a href="parent.html">Parents</a></li>
+                                <li><a href="index.html" data-translate="navbar.hello">Accueil</a></li>
+                                <li><a href="community.html" data-translate="navbar.Organisations">Organisations</a></li>
+                                <li><a class="active" href="teachers.html" data-translate="navbar.Enseignants">Enseignants</a></li>
+                                <li><a href="parent.html" data-translate="navbar.Parents">Parents</a></li>
+                                <li>
+                                    <select id="languageSelect" onchange="changeLanguage(this.value)">
+                                        <option value="Fr" data-translate="lang.francais">
+                                            Français
+                                        </option>
+                                        <option value="En" data-translate="lang.anglais">
+                                            Anglais
+                                        </option>
+                                    </select>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -100,39 +110,39 @@
   <!-- Header End !-->
   <!-- Menu Sidebar Section Start -->
   <div class="menu-sidebar-area">
-      <div class="menu-sidebar-wrapper">
-          <div class="menu-sidebar-close">
-              <button class="menu-sidebar-close-btn" id="menu_sidebar_close_btn">
-                  <i class="fal fa-times"></i>
-              </button>
-          </div>
-          <div class="menu-sidebar-content">
-              <div class="menu-sidebar-logo">
-                  <a href="index.html">
-                      <img src="images/Logo_hello/Horrizontal Version/Logo Noir.png" alt="logo" />
-                  </a>
-              </div>
-              <div class="mobile-nav-menu"></div>
-              <div class="menu-sidebar-content">
-                  <div class="menu-sidebar-single-widget">
-                      <h5 class="menu-sidebar-title">Contact Info</h5>
-                      <div class="header-contact-info">
-                          <span><i class="fa-solid fa-location-dot"></i>Toronto, ON Canada</span>
-                          <span><a href="mailto:contact@helloeduc.com"><i
-                                  class="fa-solid fa-envelope"></i>contact@helloeduc.com</a> </span>
-                          <span><a href="tel:+123-456-7890"><i class="fa-solid fa-phone"></i>+123-456-7890</a></span>
-                      </div>
-                      <div class="social-profile">
-                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                          <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div class="menu-sidebar-wrapper">
+        <div class="menu-sidebar-close">
+            <button class="menu-sidebar-close-btn" id="menu_sidebar_close_btn">
+                <i class="fal fa-times"></i>
+            </button>
+        </div>
+        <div class="menu-sidebar-content">
+            <div class="menu-sidebar-logo">
+                <a href="index.html">
+                    <img src="images/Logo_hello/Horrizontal Version/Logo Noir.png" alt="logo" />
+                </a>
+            </div>
+            <div class="mobile-nav-menu"></div>
+            <div class="menu-sidebar-content">
+                <div class="menu-sidebar-single-widget">
+                    <h5 class="menu-sidebar-title" data-translate="mobile.navbar.contact">Contact Info</h5>
+                    <div class="header-contact-info">
+                        <span><i class="fa-solid fa-location-dot" ></i>Toronto, Canada</span>
+                        <span><a href="mailto:contact@helloeduc.com"><i
+                                class="fa-solid fa-envelope"></i>contact@helloeduc.com</a> </span>
+                        <span><a href="tel:+123-456-7890"><i class="fa-solid fa-phone"></i>+123-456-7890</a></span>
+                    </div>
+                    <div class="social-profile">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   <!-- Menu Sidebar Section Start -->
   <div class="body-overlay"></div>
   
@@ -149,12 +159,12 @@
         <div class="col-md-12">
           <div class="breadcrumb-wrapper">
             <div class="page-heading">
-              <h2 class="page-title">Enseignants</h2>
+              <h2 class="page-title" data-translate="teacher.page.title">Enseignants</h2>
             </div>
             <div class="breadcrumb-list">
               <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li class="active"><a href="#">enseignants</a></li>
+                <li><a href="index.html" data-translate="teacher.page.fileariane1">Accueil</a></li>
+                <li class="active"><a href="#" data-translate="teacher.page.title">enseignants</a></li>
               </ul>
             </div>
           </div>
@@ -181,15 +191,15 @@
                     <div class="about-info-card">
                             <div class="section-title wow animate__animated animate__fadeInRight animate__slow">
                                 <div class="short-title">
-                                    <span>Parceque vous le valez</span>
+                                    <span data-translate="teacher.apropos.slogan" >Parceque vous le valez</span>
                                 </div>
-                                <h2 class="title"> Transformez votre expertise en revenue </h2>
-                                <p class="desc" style="text-align: justify;"> Hello Educ incarne la liberté éducative pour les enseignants. En rejoignant notre plateforme, vous personnalisez votre parcours pédagogique en choisissant matières et organisations, touchant un public mondial. Nous valorisons votre travail en vous rémunérant équitablement pour votre expertise et dévouement envers l'éducation. </p>
-                                <p class="desc" style="text-align: justify;"> Ensemble, formons une communauté d'enseignants passionnés partageant aspirations, encourageant l'échange d'idées et favorisant le développement professionnel. Enseigner sur notre plateforme va au-delà de transmettre des connaissances ; c'est façonner l'éducation de demain, faisant une différence significative dans la vie des apprenants en offrant des connaissances pertinentes et en les inspirant à apprendre. </p>
-                                <p class="desc" style="text-align: justify;"> Rejoignez-nous dans cette aventure éducative où votre expertise est valorisée, votre liberté respectée, et votre impact réel. Faites partie d'une transformation éducative dynamique et enrichissante avec Hello Educ. </p>
+                                <h2 class="title" data-translate="teacher.apropos.title" > Transformez votre expertise en revenue </h2>
+                                <p class="desc" style="text-align: justify;" data-translate="teacher.apropos.description1"> Hello Educ incarne la liberté éducative pour les enseignants. En rejoignant notre plateforme, vous personnalisez votre parcours pédagogique en choisissant matières et organisations, touchant un public mondial. Nous valorisons votre travail en vous rémunérant équitablement pour votre expertise et dévouement envers l'éducation. </p>
+                                <p class="desc" style="text-align: justify;" data-translate="teacher.apropos.description2"> Ensemble, formons une communauté d'enseignants passionnés partageant aspirations, encourageant l'échange d'idées et favorisant le développement professionnel. Enseigner sur notre plateforme va au-delà de transmettre des connaissances ; c'est façonner l'éducation de demain, faisant une différence significative dans la vie des apprenants en offrant des connaissances pertinentes et en les inspirant à apprendre. </p>
+                                <p class="desc" style="text-align: justify;" data-translate="teacher.apropos.description3"> Rejoignez-nous dans cette aventure éducative où votre expertise est valorisée, votre liberté respectée, et votre impact réel. Faites partie d'une transformation éducative dynamique et enrichissante avec Hello Educ. </p>
 
                                 <div class="slider-btn-wrapper">
-                                    <a href="https://app.helloeduc.com " class="slider-btn ">
+                                    <a href="https://app.helloeduc.com " class="slider-btn" data-translate="commencez.maintenant">
                                         Commencez maintenant
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </a>
@@ -213,11 +223,11 @@
             <div class="col-lg-8">
                 <div class="section-title text-center ">
                     <div class="short-title">
-                        <span>Des services adaptés</span>
+                        <span data-translate="teacher.service.slogan">Des services adaptés</span>
                     </div>
-                    <h2 class="title">Nous comprenons vos besoins</h2>
-                    <p class="desc">Parce Que nous vous comprenons, nous avons proposé une multitude de
-                        service vous permettant de pleinement profiter de votre expérience sur la plateforme</p>
+                    <h2 class="title" data-translate="teacher.service.title" >Nous comprenons vos besoins</h2>
+                    <p class="desc" data-translate="teacher.service.description" >Parce Que nous vous comprenons, nous avons proposé une multitude de
+                        service vous permettant de pleinement profiter de votre expérience sur la plateforme.</p>
                 </div>
             </div>
         </div>
@@ -227,8 +237,8 @@
                   <img src="images/icon/planning personnalise.jpg" alt="service">
               </div>
               <div class="content">
-                <h2 class="title">Planning personnalisé </h2>
-                <p class="desc">Un planning adapté à vos disponibilités et qui respecte votre emploi de temps pour
+                <h2 class="title" data-translate="teacher.service.content.title1" >Planning personnalisé </h2>
+                <p class="desc" data-translate="teacher.service.content.description1">Un planning adapté à vos disponibilités et qui respecte votre emploi de temps pour
                     vous mettre d'être totalement dédié.</p>
                 
               </div>
@@ -238,10 +248,10 @@
                   <img src="images/icon/remuneration.png" alt="service">
               </div>
               <div class="content">
-                <h2 class="title">
+                <h2 class="title" data-translate="teacher.service.content.title2">
                     Rémunération transparente
               </h2>
-                <p class="desc">Votre expertise mérite d'être récompensée. Nous offrons une rémunération
+                <p class="desc" data-translate="teacher.service.content.description2" >Votre expertise mérite d'être récompensée. Nous offrons une rémunération
                     transparente, reconnaissant la valeur de votre enseignement et votre contribution à
                     l'éducation.</p>
                 
@@ -252,10 +262,10 @@
                   <img src="images/icon/cyber-scurity.png" alt="service">
               </div>
               <div class="content">
-                <h2 class="title">
+                <h2 class="title" data-translate="teacher.service.content.title3">
                     Informations sécurisées
               </h2>
-                <p class="desc">La sécurité de vos données est notre priorité. Notre plateforme utilise les dernières
+                <p class="desc" data-translate="teacher.service.content.description3" >La sécurité de vos données est notre priorité. Notre plateforme utilise les dernières
                     technologies pour garantir la confidentialité et la protection des informations.</p>
                 
               </div>
@@ -265,10 +275,10 @@
                   <img src="images/icon/gratuit.png" alt="service">
               </div>
               <div class="content">
-                <h2 class="title">
+                <h2 class="title" data-translate="teacher.service.content.title4">
                     Complètement gratuit
               </h2>
-                <p class="desc">Hello Educ est complètement gratuit pour vous. Aucun frais ne vous sera demandé,
+                <p class="desc" data-translate="teacher.service.content.description4" >Hello Educ est complètement gratuit pour vous. Aucun frais ne vous sera demandé,
                     concentrez vous sur ce que vous savez faire le mieux.
                     </p>
                 

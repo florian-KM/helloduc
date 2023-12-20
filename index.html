@@ -599,8 +599,7 @@
                 </div>
             </div>
             <div class="subscribe-area">
-                
-                            <iframe class="mt-0"
+                 <iframe class="mt-0"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5773.260716218313!2d-79.3857576843572!3d43.65585836239715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cc66e75af3%3A0xbf17db933edd1e!2sToronto%20Old%20City%20Hall!5e0!3m2!1sen!2sbg!4v1623058287314!5m2!1sen!2sbg"
                             frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen></iframe>
             
@@ -629,41 +628,41 @@
                         <img src="images/shape/star-large-full.png" alt="shape">
                     </div>
                     <div class="comment-respond">
-                        <form action="#" method="post" class="comment-form">
+                        <form method="post" id="contactForm" class="comment-form">
                             <div class="row g-6 ">
                                 <div class="col-md-6">
                                     <div class="contacts-name">
                                         <label data-translate="home.contact.content.form.nom" >Nom<span style="color: red;">*</span></label>
-                                        <input name="author" type="text" placeholder="Votre nom" required>
+                                        <input name="author" id="author" type="text" placeholder="Votre nom" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="contacts-email">
                                         <label data-translate="home.contact.content.form.email" >Email<span style="color: red;">*</span></label>
-                                        <input name="email" type="text" placeholder="Votre mail" required>
+                                        <input name="email" id="email" type="text" placeholder="Votre mail" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="contacts-name">
                                         <label data-translate="home.contact.content.form.telephone">Téléphone</label>
-                                        <input name="author" type="text" placeholder="Votre téléphone">
+                                        <input name="telephone" id="telephone" type="text" placeholder="Votre téléphone">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="contacts-email">
                                         <label data-translate="home.contact.content.form.sujet">Subject</label>
-                                        <input name="email" type="text" placeholder="Votre sujet">
+                                        <input name="sujet" id="sujet" type="text" placeholder="Votre sujet">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="contacts-message">
                                         <label data-translate="home.contact.content.form.message">message<span style="color: red;">*</span></label>
-                                        <textarea name="comment" cols="20" rows="3"
+                                        <textarea name="comment" id="comment" cols="20" rows="3"
                                                   placeholder="Message" required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="theme-btn" data-translate="home.contact.content.form.envoyer">
+                                    <button type="submit" onclick="submitForm(event)" class="theme-btn" data-translate="home.contact.content.form.envoyer">
                                         Envoyer un message
                                     </button>
                                 </div>
@@ -766,6 +765,7 @@
     <script src="js/custom.js"></script>   
     <script src="js/i18n.js"></script> 
     <script src="js/internationalization.js"></script> 
+    <script src="js/submit.js"></script> 
     <!-- <script src="js/internationalization.js"></script> -->
 </body>
 

@@ -209,9 +209,6 @@ const translations = {
         'parent.content.progres.title4': ' Notifications en Temps Réel',
         'parent.content.progres.description4': 'Restez informé instantanément grâce aux notifications en temps réel.',
         
-
-
-
     },
     
     'En': {

@@ -80,20 +80,20 @@
                     <div class="menu d-inline-block">
                         <nav id="main-menu" class="main-menu">
                             <ul>
-                                <li><a href="index.html">Accueil</a></li>
-                                <li><a href="community.html">Organisation</a></li>
-                                <li><a href="teachers.html">Enseignants</a></li>
-                                <li><a  class="active" href="parent.html">Parents</a></li>
-                                <li>
-                                    <select id="languageSelect" onchange="changeLanguage(this.value)">
-                                        <option value="Fr" data-translate="lang.francais">
-                                            Français
-                                        </option>
-                                        <option value="En" data-translate="lang.anglais">
-                                            Anglais
-                                        </option>
-                                    </select>
-                                </li>
+                                <li ><a data-translate="navbar.hello" href="#">Accueil</a></li>
+                                    <li><a href="community.html" data-translate="navbar.Organisations" >Organisations</a></li>
+                                    <li><a href="teachers.html" data-translate="navbar.Enseignants">Enseignants</a></li>
+                                    <li><a class="active" href="parent.html" data-translate="navbar.Parents" >Parents</a></li>
+                                    <li>
+                                        <select id="languageSelect" onchange="changeLanguage(this.value)">
+                                            <option value="Fr" data-translate="lang.francais">
+                                                Français
+                                            </option>
+                                            <option value="En" data-translate="lang.anglais">
+                                                Anglais
+                                            </option>
+                                        </select>
+                                    </li>
                             </ul>
                         </nav>
                     </div>
@@ -161,12 +161,12 @@
         <div class="col-md-12">
           <div class="breadcrumb-wrapper">
             <div class="page-heading">
-              <h2 class="page-title">Parents</h2>
+              <h2 class="page-title" data-translate="parent.page.title" >Parents</h2>
             </div>
             <div class="breadcrumb-list">
               <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li class="active"><a href="#">parents</a></li>
+                <li><a href="index.html" data-translate="parent.page.fileariane1" >Accueil</a></li>
+                <li class="active"><a href="#" data-translate="parent.page.title" >Parents</a></li>
               </ul>
             </div>
           </div>
@@ -186,19 +186,19 @@
                     <div class="about-info-card style-2">
                         <div class="section-title">
                             <div class="short-title">
-                                <span>Offrir le meilleur de l'education</span>
+                                <span data-translate="parent.apropos.slogan" >Offrir le meilleur de l'education</span>
                             </div>
-                            <h2 class="title"> Investir dans l'éducation de mes enfants. </h2>
-                            <p class="desc" style="text-align: justify;">Hello Educ va au-delà des leçons classiques en offrant un soutien personnalisé adapté à chaque élève. Nos enseignants qualifiés collaborent étroitement pour fournir un apprentissage sur mesure dans toutes les matières et à tous les niveaux, assurant des progrès durables.
+                            <h2 class="title" data-translate="parent.page.title"> Investir dans l'éducation de mes enfants. </h2>
+                            <p class="desc" style="text-align: justify;" data-translate="parent.apropos.description1">Hello Educ va au-delà des leçons classiques en offrant un soutien personnalisé adapté à chaque élève. Nos enseignants qualifiés collaborent étroitement pour fournir un apprentissage sur mesure dans toutes les matières et à tous les niveaux, assurant des progrès durables.
                                 </p>
-                            <p class="desc" style="text-align: justify;">Donnez à votre enfant la flexibilité d'apprendre à son propre rythme, de chez lui. Notre équipe soutient chaque étape de l'apprentissage, assurant une expérience éducative enrichissante.
+                            <p class="desc" style="text-align: justify;" data-translate="parent.apropos.description2" >Donnez à votre enfant la flexibilité d'apprendre à son propre rythme, de chez lui. Notre équipe soutient chaque étape de l'apprentissage, assurant une expérience éducative enrichissante.
                                 </p>
-                            <p class="desc" style="text-align: justify;">Investissez aujourd'hui dans l'avenir académique de votre enfant avec Hello Educ. Offrez bien plus qu'un simple soutien en ligne, offrez une opportunité d'apprentissage personnalisée, stimulant la curiosité, renforçant les compétences et favorisant le succès à chaque étape de son parcours éducatif.
+                            <p class="desc" style="text-align: justify;" data-translate="parent.apropos.description3">Investissez aujourd'hui dans l'avenir académique de votre enfant avec Hello Educ. Offrez bien plus qu'un simple soutien en ligne, offrez une opportunité d'apprentissage personnalisée, stimulant la curiosité, renforçant les compétences et favorisant le succès à chaque étape de son parcours éducatif.
                                 
                                 </p>
 
                                 <div class="slider-btn-wrapper">
-                                    <a href="https://app.helloeduc.com" class="slider-btn ">
+                                    <a href="https://app.helloeduc.com" class="slider-btn " data-translate="commencez.maintenant">
                                         Commencez maintenant
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </a>
@@ -228,10 +228,10 @@
             <div class="col-lg-8">
                 <div class="section-title text-center wow animate__animated animate__fadeInUp animate__slow">
                     <div class="short-title">
-                        <span>Des services adaptés</span>
+                        <span data-translate="parent.service.slogan">Des services adaptés</span>
                     </div>
-                    <h2 class="title">Nous comprenons vos besoins</h2>
-                    <p class="desc">Parce Que nous vous comprenons, nous avons proposé une multitude de
+                    <h2 class="title" data-translate="parent.service.title">Nous comprenons vos besoins</h2>
+                    <p class="desc" data-translate="parent.service.description">Parce Que nous vous comprenons, nous avons proposé une multitude de
                         service vous permettant de pleinement profiter de votre expérience sur la plateforme.</p>
                 </div>
             </div>
@@ -244,8 +244,8 @@
                             <i class="icofont-teacher"></i>
                         </div>
                         <div class="content">
-                          <h2 class="title"> Enseignants qualifiés </h2>
-                          <p class="desc">Nous collaborons avec des enseignants passionnés et compétents, sélectionnés avec
+                          <h2 class="title" data-translate="parent.content.service.title1"> Enseignants qualifiés </h2>
+                          <p class="desc" data-translate="parent.content.service.description1">Nous collaborons avec des enseignants passionnés et compétents, sélectionnés avec
                             soin pour leur expertise et leur engagement envers l'éducation de qualité.</p>
                           
                             
@@ -256,10 +256,10 @@
                             <i class="icofont-slidshare"></i>
                         </div>
                         <div class="content">
-                          <h2 class="title">
+                          <h2 class="title" data-translate="parent.content.service.title2">
                             Suivi personnalisé
                         </h2>
-                          <p class="desc">Chaque enfant est unique. Notre approche individualisée assure un suivi attentif, des
+                          <p class="desc" data-translate="parent.content.service.description2">Chaque enfant est unique. Notre approche individualisée assure un suivi attentif, des
                             horaires personnalisés et des ajustements pour garantir des progrès continus et une
                             réussite durable.</p>
                             
@@ -270,14 +270,12 @@
                             <i class="icofont-support"></i>
                         </div>
                         <div class="content">
-                          <h2 class="title">
+                          <h2 class="title" data-translate="parent.content.service.title3">
                             Support Continu
                         </h2>
-                          <p class="desc">Notre équipe est là pour vous accompagner à chaque étape. De l'inscription aux
+                          <p class="desc" data-translate="parent.content.service.description3">Notre équipe est là pour vous accompagner à chaque étape. De l'inscription aux
                             questions académiques, nous sommes toujours présents pour garantir une expérience
                             d'apprentissage optimale.</p>
-                          
-                            
                         </div>
                     </div>
                     <div class="icon-card style-2 wow animate__animated animate__fadeInBottomRight animate__slow">
@@ -285,10 +283,10 @@
                             <i class="icofont-ssl-security"></i>
                         </div>
                         <div class="content">
-                          <h2 class="title">
+                          <h2 class="title" data-translate="parent.content.service.title4">
                             Sécurité des données
                         </h2>
-                          <p class="desc">La sécurité de vos données est notre priorité. Notre plateforme utilise les dernières
+                          <p class="desc" data-translate="parent.content.service.description4">La sécurité de vos données est notre priorité. Notre plateforme utilise les dernières
                             technologies pour garantir la confidentialité et la protection des informations.</p>
                             
                         </div>
@@ -298,7 +296,7 @@
                     <div class="col-lg-3">
                         <div class="section-title text-center  ">
                             <div class="slider-btn-wrapper  mt-15">
-                                <a href="https://app.helloeduc.com" class="slider-btn ">
+                                <a href="https://app.helloeduc.com" class="slider-btn" data-translate="commencez.maintenant">
                                     Commencez maintenant
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
@@ -325,10 +323,10 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center ">
                         <div class="short-title">
-                            <span>Votre rôle </span>
+                            <span data-translate="parent.role.slogan">Votre rôle </span>
                         </div>
-                        <h2 class="title">Façonnez l'Avenir Éducatif<br> de Vos Enfants</h2>
-                        <p class="desc"> Explorez Votre Influence en tant que Parent Actif.</p>
+                        <h2 class="title" data-translate="parent.role.title" >Façonnez l'Avenir Éducatif<br> de Vos Enfants</h2>
+                        <p class="desc" data-translate="parent.role.description"> Explorez Votre Influence en tant que Parent Actif.</p>
                     </div>
                 </div>
             </div>
@@ -338,8 +336,8 @@
                       <img src="images/common/partenaire.png" alt="partenaire">
                   </div>
                   <div class="content">
-                    <h2 class="title">Partenaire Actif </h2>
-                    <p class="desc">En tant que partenaire actif, les parents participent activement à la vie éducative de leurs enfants. Ils collaborent avec les enseignants, participent aux réunions scolaires, et s'impliquent dans les activités parascolaires.</p>
+                    <h2 class="title" data-translate="parent.content.role.title1">Partenaire Actif </h2>
+                    <p class="desc" data-translate="parent.content.role.description1">En tant que partenaire actif, les parents participent activement à la vie éducative de leurs enfants. Ils collaborent avec les enseignants, participent aux réunions scolaires, et s'impliquent dans les activités parascolaires.</p>
                     
                   </div>
               </div>
@@ -348,10 +346,10 @@
                       <img src="images/common/soutien.png" alt="service">
                   </div>
                   <div class="content">
-                    <h2 class="title">
+                    <h2 class="title" data-translate="parent.content.role.title2">
                         Soutien Emotionnel
                   </h2>
-                    <p class="desc">Les parents fournissent un soutien émotionnel crucial. Ils sont là pour écouter, encourager et aider leurs enfants à surmonter les défis émotionnels liés à l'apprentissage.</p>
+                    <p class="desc" data-translate="parent.content.role.description2">Les parents fournissent un soutien émotionnel crucial. Ils sont là pour écouter, encourager et aider leurs enfants à surmonter les défis émotionnels liés à l'apprentissage.</p>
                     
                   </div>
               </div>
@@ -372,10 +370,10 @@
                       <img src="images/common/encouragement.png" alt="service">
                   </div>
                   <div class="content">
-                    <h2 class="title">
+                    <h2 class="title" data-translate="parent.content.role.title3" >
                         Encouragement à la Curiosité
                   </h2>
-                    <p class="desc"> Les parents jouent un rôle clé dans l'encouragement de la curiosité intellectuelle de leurs enfants. </p>
+                    <p class="desc" data-translate="parent.content.role.description3"> Les parents jouent un rôle clé dans l'encouragement de la curiosité intellectuelle de leurs enfants. </p>
                     
                   </div>
               </div>
@@ -384,10 +382,10 @@
                       <img src="images/common/2684988.png" alt="service">
                   </div>
                   <div class="content">
-                    <h2 class="title">
+                    <h2 class="title" data-translate="parent.content.role.title4">
                         Modèle de Valeurs
                   </h2>
-                    <p class="desc">En tant que modèle de valeurs, les parents démontrent l'importance de l'éducation, du respect, de l'honnêteté et d'autres valeurs essentielles.</p>
+                    <p class="desc" data-translate="parent.content.role.description4">En tant que modèle de valeurs, les parents démontrent l'importance de l'éducation, du respect, de l'honnêteté et d'autres valeurs essentielles.</p>
                     
                   </div>
               </div>
@@ -421,10 +419,10 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center wow animate__animated animate__fadeInUp animate__slow">
                         <div class="short-title">
-                            <span>Chaque Étape Compte, Chaque Progrès Mérite d'Être Applaudi.</span>
+                            <span data-translate="parent.progres.slogan">Chaque Étape Compte, Chaque Progrès Mérite d'Être Applaudi.</span>
                         </div>
-                        <h2 class="title">Suivi des Progrès</h2>
-                        <p class="desc">Plongez dans une expérience transparente où chaque réussite, chaque effort, et chaque étape de leur parcours éducatif est mis en lumière.</p>
+                        <h2 class="title" data-translate="parent.progres.title">Suivi des Progrès</h2>
+                        <p class="desc"  data-translate="parent.progres.description">Plongez dans une expérience transparente où chaque réussite, chaque effort, et chaque étape de leur parcours éducatif est mis en lumière.</p>
                     </div>
                 </div>
             </div>
@@ -436,8 +434,8 @@
                                 <i class="icofont-clip-board"></i>
                             </div>
                             <div class="content">
-                              <h2 class="title"> Tableau de Bord des Progrès </h2>
-                              <p class="desc">Explorez un tableau de bord intuitif qui met en lumière les réalisations, les compétences acquises, et les notes de vos enfants.</p>
+                              <h2 class="title" data-translate="parent.content.progres.title1"> Tableau de Bord des Progrès </h2>
+                              <p class="desc" data-translate="parent.content.progres.description1">Explorez un tableau de bord intuitif qui met en lumière les réalisations, les compétences acquises, et les notes de vos enfants.</p>
                               
                                 
                             </div>
@@ -447,10 +445,10 @@
                                 <i class="icofont-list"></i>
                             </div>
                             <div class="content">
-                              <h2 class="title">
+                              <h2 class="title" data-translate="parent.content.progres.title2">
                                 Détails des Activités Pédagogiques
                             </h2>
-                              <p class="desc">Découvrez en détail les activités éducatives auxquelles vos enfants participent.</p>
+                              <p class="desc" data-translate="parent.content.progres.description2">Découvrez en détail les activités éducatives auxquelles vos enfants participent.</p>
                                 
                             </div>
                         </div>
@@ -459,12 +457,11 @@
                                 <i class="icofont-paper"></i>
                             </div>
                             <div class="content">
-                              <h2 class="title">
+                              <h2 class="title" data-translate="parent.content.progres.title3">
                                 Objectifs et Plans d'Amélioration
                             </h2>
-                              <p class="desc">Collaborez avec les enseignants pour définir des objectifs éducatifs spécifiques pour vos enfants.</p>
+                              <p class="desc" data-translate="parent.content.progres.description3">Collaborez avec les enseignants pour définir des objectifs éducatifs spécifiques pour vos enfants.</p>
                               
-                                
                             </div>
                         </div>
                         <div class="icon-card style-2 wow animate__animated animate__fadeInBottomRight animate__slow">
@@ -472,10 +469,10 @@
                                 <i class="icofont-notification"></i>
                             </div>
                             <div class="content">
-                              <h2 class="title">
+                              <h2 class="title" data-translate="parent.content.progres.title4">
                                 Notifications en Temps Réel
                             </h2>
-                              <p class="desc">Restez informé instantanément grâce aux notifications en temps réel.</p>
+                              <p class="desc" data-translate="parent.content.progres.description4">Restez informé instantanément grâce aux notifications en temps réel.</p>
                                 
                             </div>
                         </div>
@@ -484,7 +481,7 @@
                         <div class="col-lg-3">
                             <div class="section-title text-center  ">
                                 <div class="slider-btn-wrapper  mt-15">
-                                    <a href="https://app.helloeduc.com" class="slider-btn ">
+                                    <a href="https://app.helloeduc.com" class="slider-btn" data-translate="commencez.maintenant">
                                         Commencez maintenant
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </a>
